@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path='/' component={Home} exact />
+//           <Route path='/' component={Home} exact />
         </Switch>
-        {/* <Home /> */}
+          <Home /> 
         <GlobalStyle />
       </Router>
     </div>
