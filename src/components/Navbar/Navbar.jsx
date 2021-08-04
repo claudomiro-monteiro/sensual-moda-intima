@@ -107,7 +107,7 @@ const Navbar = ({ open, handleClick }) => {
                                 duration={400}
                                 delay={100}
                             >
-                                quem somo
+                                quem somos
                             </NavLinks>
                         </NavItem>
                         <NavItem>
@@ -118,7 +118,7 @@ const Navbar = ({ open, handleClick }) => {
                                 hashSpy={true}
                                 offset={-70}
                                 duration={400}
-                                delay={100}
+                                delay={100} 
                             >
                                 localização
                             </NavLinks>
