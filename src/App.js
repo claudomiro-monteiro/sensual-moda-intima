@@ -8,10 +8,10 @@ function App() {
   return (
     <div className="App">
       <Router>
-        {/* <Switch>
+        <Switch>
           <Route path='/' component={Home} exact />
-        </Switch> */}
-        <Home />
+        </Switch>
+        {/* <Home /> */}
         <GlobalStyle />
       </Router>
     </div>
