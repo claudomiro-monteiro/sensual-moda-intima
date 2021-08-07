@@ -1,8 +1,8 @@
 {
+  "homepage": "https://bigodesan.github.io/sensual-moda-intima",
   "name": "pkna",
   "version": "0.1.0",
   "private": true, 
-  "homepage": "https://bigodesan.github.io/sensual-moda-intima/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
