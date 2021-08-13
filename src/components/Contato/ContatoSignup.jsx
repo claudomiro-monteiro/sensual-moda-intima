@@ -137,7 +137,7 @@ const ContatoSignup = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="msg-btn">
+                    <div className="msg-btn"> 
                         {/* <span className="msg">Mensagem enviada com sucesso!</span> */}
                         <div className="btn">
                             <button type="submit">Enviar</button>
