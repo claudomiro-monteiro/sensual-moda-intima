@@ -7,7 +7,7 @@ import Home from './pages';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route>
             <Home />
