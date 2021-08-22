@@ -9,7 +9,10 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path='/' component={Home} exact />
+          <Route>
+            <Home />
+          </Route>
+          {/* <Route path='/' component={Home} exact /> */}
         </Switch>
          {/* <Home /> */}
        <GlobalStyle />
