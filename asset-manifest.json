@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sensual-moda-intima/static/css/main.ece53ec5.chunk.css",
-    "main.js": "/sensual-moda-intima/static/js/main.7b16d665.chunk.js",
-    "main.js.map": "/sensual-moda-intima/static/js/main.7b16d665.chunk.js.map",
+    "main.js": "/sensual-moda-intima/static/js/main.bde2b47b.chunk.js",
+    "main.js.map": "/sensual-moda-intima/static/js/main.bde2b47b.chunk.js.map",
     "runtime-main.js": "/sensual-moda-intima/static/js/runtime-main.725b50b6.js",
     "runtime-main.js.map": "/sensual-moda-intima/static/js/runtime-main.725b50b6.js.map",
     "static/js/2.d71832d7.chunk.js": "/sensual-moda-intima/static/js/2.d71832d7.chunk.js",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.725b50b6.js",
     "static/js/2.d71832d7.chunk.js",
     "static/css/main.ece53ec5.chunk.css",
-    "static/js/main.7b16d665.chunk.js"
+    "static/js/main.bde2b47b.chunk.js"
   ]
 }
