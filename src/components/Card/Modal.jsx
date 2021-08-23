@@ -26,6 +26,7 @@ const Container = styled.div`
 const ModalWrapper = styled.div`
     width: 90%;
     height: 80%;
+    overflow: auto;
     top: 0;
     left: 0;
     background: #fff;
