@@ -1,3 +1,4 @@
+require("dotenv").config();
 const mailer = require('nodemailer');
 
 module.exports = (email, nome, telefone, mensagem) => {
@@ -7,8 +8,8 @@ module.exports = (email, nome, telefone, mensagem) => {
         secure: false, //SSL/TLS
         // service: 'gmail',
         auth: {
-            user: 'claudomiromonteiro@gmail.com',
-            pass: 'antoniocarlos'
+            user: process.env.USERNAME,
+            pass: process.env.PASSWORD
         }
     })
 
