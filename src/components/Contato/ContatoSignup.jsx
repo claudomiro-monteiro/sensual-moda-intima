@@ -1,22 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Contato.css'
 import { useFormik } from "formik";
-import * as Yup from "yup"; 
+import * as Yup from "yup";
 import { mask as masker, unMask } from "remask";
 import { Container, Body, H1 } from '../Card/style'
 import axios from 'axios';
 
 const InputMask = ({ mask, value, onChange, ...props }) => {
     const handleChange = (ev) => {
-      const unMaskedValue = unMask(ev.target.value, mask);
-      const maskedValue = masker(unMaskedValue, mask);
-      onChange && onChange(ev.target.name)(maskedValue);
+        const unMaskedValue = unMask(ev.target.value, mask);
+        const maskedValue = masker(unMaskedValue, mask);
+        onChange && onChange(ev.target.name)(maskedValue);
     };
-  
+
     const maskedValue = masker(unMask(value), mask);
-  
+
     return <input {...props} value={maskedValue} onChange={handleChange} />;
-  };
+};
 
 const ContatoSignup = () => {
 
@@ -30,12 +30,12 @@ const ContatoSignup = () => {
                 'Content-Type': `multpart/form-data; boundary=${formData._boundary}`
             }
         }) 
-        
+
         .then((response) => console.log(JSON.stringify(response.data)))
         // .catch(console.error(error))
     }
 
-    const formik = useFormik({  
+    const formik = useFormik({
         initialValues: {
             nome: "",
             email: "",
@@ -55,15 +55,15 @@ const ContatoSignup = () => {
                 .required("Digite sua mensagem.")
         }),
         onSubmit: (handleSubmit)
-            // alert(JSON.stringify(values, null, 2));
-        
+        // alert(JSON.stringify(values, null, 2));
+
     });
 
     return (
         <Container id="contato">
             <H1>Contato</H1>
             <Body>
-                <form className="wrapper-content" onSubmit={formik.handleSubmit}>
+                <form className="wrapper-content" onSubmit={formik.handleSubmit} id="FORM_ID">
                     <div className="wrapper">
                         <div className="left">
                             <div className="input-data">
@@ -137,7 +137,7 @@ const ContatoSignup = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="msg-btn"> 
+                    <div className="msg-btn">
                         {/* <span className="msg">Mensagem enviada com sucesso!</span> */}
                         <div className="btn">
                             <button type="submit">Enviar</button>
