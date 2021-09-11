@@ -29,9 +29,9 @@ const ContatoSignup = () => {
                 // 'Content-Type': 'application/json'
                 'Content-Type': `multpart/form-data; boundary=${formData._boundary}`
             }
-        }) 
+        })
 
-        .then((response) => console.log(JSON.stringify(response.data)))
+            .then((response) => console.log(JSON.stringify(response.data)))
         // .catch(console.error(error))
     }
 
@@ -54,8 +54,7 @@ const ContatoSignup = () => {
                 .min(10, "Sua mensagem deve conter mais de 10 caracteres.")
                 .required("Digite sua mensagem.")
         }),
-        onSubmit: (handleSubmit)
-        // alert(JSON.stringify(values, null, 2));
+        onSubmit: (handleSubmit),
 
     });
 
@@ -63,7 +62,7 @@ const ContatoSignup = () => {
         <Container id="contato">
             <H1>Contato</H1>
             <Body>
-                <form className="wrapper-content" onSubmit={formik.handleSubmit} id="FORM_ID">
+                <form className="wrapper-content" onSubmit={formik.handleSubmit}>
                     <div className="wrapper">
                         <div className="left">
                             <div className="input-data">
