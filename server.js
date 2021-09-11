@@ -24,5 +24,5 @@ app.post('/contato',upload.single(''), (req, res, next) => {
 app.use(express.static(path.join(__dirname, 'build')));
  
 // const server = http.createServer(app); 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
 console.log("Servidor escutando na porta 3000...");
