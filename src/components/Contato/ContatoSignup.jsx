@@ -20,11 +20,15 @@ const InputMask = ({ mask, value, onChange, ...props }) => {
 
 const ContatoSignup = () => {
 
+    const api = axios.create({
+        baseURL: process.env.REACT_APP_API_URL
+    })
+
     const handleSubmit = (values) => {
         // alert(JSON.stringify(values, null, 2));
         const formData = new FormData();
         Object.keys(values).forEach(key => formData.append(key, values[key]));
-        axios.post('/contato', formData, {
+        api.post('/contato', formData, {
             headers: {
                 // 'Content-Type': 'application/json'
                 'Content-Type': `multpart/form-data; boundary=${formData._boundary}`
