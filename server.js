@@ -7,7 +7,7 @@ app.use(require('cors')());
 app.use(express.json());
  
 const upload = require('multer')();
-app.post('/contato',upload.single(''), (req, res, next) => { 
+app.post('/contato', upload.single(''), (req, res, next) => { 
 
     const nome = req.body.nome;
     const email = req.body.email;

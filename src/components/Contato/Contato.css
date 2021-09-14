@@ -152,9 +152,9 @@
   width: auto;
   /* align-items: center;
   justify-content: flex-start; */
-  background: #daa520;
+  background: #3CB371;
   padding: 1rem 2rem;
-  /* margin: 1rem 0; */
+  margin: 1rem 0;
   border-radius: 0.5rem;
 }
 
@@ -164,6 +164,18 @@
     align-items: center;
     justify-content: center;
   }
+
+  .wrapper-content .msg {
+    display: block;
+    width: auto;
+    /* align-items: center;
+    justify-content: flex-start; */
+    background: #3CB371;
+    padding: 1rem 2rem;
+    /* margin: 1rem 0; */
+    border-radius: 0.5rem;
+  }
+}
 
 @media (max-width: 425px) {
   .wrapper-content .msg-btn .btn {
@@ -179,9 +191,20 @@
     color: #000;
     cursor: pointer;
   }
+
+  .wrapper-content .msg {
+    display: flex;
+    width: auto;
+    /* align-items: center;
+    justify-content: flex-start; */
+    background: #3CB371;
+    padding: 1rem 2rem;
+    /* margin: 1rem 0; */
+    border-radius: 0.5rem;
+  }
 }
 
-}
+
 
 .wrapper-content .btn {
   display: flex;

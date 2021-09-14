@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Contato.css'
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { mask as masker, unMask } from "remask";
 import { Container, Body, H1 } from '../Card/style'
 import axios from 'axios';
+import { response } from 'express';
 
 const InputMask = ({ mask, value, onChange, ...props }) => {
     const handleChange = (ev) => {
@@ -30,13 +31,19 @@ const ContatoSignup = () => {
         Object.keys(values).forEach(key => formData.append(key, values[key]));
         api.post('/contato', formData, {
             headers: {
-                // 'Content-Type': 'application/json'
-                'Content-Type': `multpart/form-data; boundary=${formData._boundary}`
+                'Content-Type': 'application/x-www-form-urlencoded'
+                // 'Content-Type': `multpart/form-data; boundary=${formData._boundary}`
             }
         })
 
-            .then((response) => console.log(JSON.stringify(response.data)))
-        // .catch(console.error(error))
+            .then(response => {
+                console.log(response.status)
+                response.send('Msg enviada')
+            })
+            .catch(error => {
+                console.log(error.response.status)
+                response.send('Msg não enviada')
+            })
     }
 
     const formik = useFormik({
@@ -141,7 +148,7 @@ const ContatoSignup = () => {
                         </div>
                     </div>
                     <div className="msg-btn">
-                        {/* <span className="msg">Mensagem enviada com sucesso!</span> */}
+                        { <span className="msg">Mensagem enviada com sucesso!</span> }
                         <div className="btn">
                             <button type="submit">Enviar</button>
                         </div>

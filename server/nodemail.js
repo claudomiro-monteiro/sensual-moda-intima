@@ -1,4 +1,4 @@
-// require("dotenv").config();
+require("dotenv").config();
 const mailer = require('nodemailer');
 
 module.exports = (email, nome, telefone, mensagem) => {
@@ -8,8 +8,8 @@ module.exports = (email, nome, telefone, mensagem) => {
         secure: false, //SSL/TLS
         // service: 'gmail',
         auth: {
-            user: "claudomiromonteiro@gmail.com",
-            pass: "antoniocarlos"
+            user: process.env.USER_NAME,
+            pass: process.env.PASS_WORD
         }
     })
 
@@ -33,18 +33,8 @@ module.exports = (email, nome, telefone, mensagem) => {
         from: email,
         to: 'claudomiromonteiro@gmail.com',
         subject: `${nome} te enviou uma mensagem`,
-        // text: mensagem,
         html: output
     }
-    
-    // if(anexo){
-    //     console.log(anexo);
-    //     mail.attachments = [];
-    //     mail.attachments.push({
-    //         filename: anexo.originalname,
-    //         content: anexo.buffer
-    //     })
-    // }
     
     return new Promise((resolve, reject) => {
         smtp.sendMail(mail)
