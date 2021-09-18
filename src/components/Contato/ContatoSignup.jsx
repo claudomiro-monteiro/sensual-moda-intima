@@ -4,8 +4,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import { mask as masker, unMask } from "remask";
 import { Container, Body, H1 } from '../Card/style'
-import axios from 'axios';
-import { response } from 'express';
+import axios from 'axios'; 
 
 const InputMask = ({ mask, value, onChange, ...props }) => {
     const handleChange = (ev) => {
@@ -38,11 +37,12 @@ const ContatoSignup = () => {
 
             .then(response => {
                 console.log(response.status)
-                response.send('Msg enviada')
+                alert('Email enviado!')
+                // response.render('Msg enviada')
             })
-            .catch(error => {
-                console.log(error.response.status)
-                response.send('Msg não enviada')
+            .catch((error) => {
+                    console.log(error.response.status)
+                    // console.log('Email não enviado.');
             })
     }
 
@@ -148,7 +148,7 @@ const ContatoSignup = () => {
                         </div>
                     </div>
                     <div className="msg-btn">
-                        { <span className="msg">Mensagem enviada com sucesso!</span> }
+                        {/* { <span className="msg">Mensagem enviada com sucesso!</span> } */}
                         <div className="btn">
                             <button type="submit">Enviar</button>
                         </div>
