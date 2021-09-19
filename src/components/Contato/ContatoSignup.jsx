@@ -41,10 +41,16 @@ const ContatoSignup = () => {
                 // response.render('Msg enviada')
             })
             .catch((error) => {
-                    console.log(error.response.status)
+                    console.log(error.response.status);
+                    // document.querySelector('#teste').innerHTML = 'Mensagem não enviada.';
+                    // function Pkna () {
+                    //     return <div dangerouslySetInnerHTML={{__html:'Mensagem não enviada.'}}/>
+                    // }
                     // console.log('Email não enviado.');
             })
     }
+
+    
 
     const formik = useFormik({
         initialValues: {
@@ -149,6 +155,7 @@ const ContatoSignup = () => {
                     </div>
                     <div className="msg-btn">
                         {/* { <span className="msg">Mensagem enviada com sucesso!</span> } */}
+                        {/* <div id="teste"></div> */}
                         <div className="btn">
                             <button type="submit">Enviar</button>
                         </div>
