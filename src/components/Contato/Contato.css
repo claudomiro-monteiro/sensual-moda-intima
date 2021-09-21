@@ -158,6 +158,18 @@
   border-radius: 0.5rem;
 }
 
+.wrapper-content .msgerro {
+  display: block;
+  width: auto;
+  /* align-items: center;
+  justify-content: flex-start; */
+  background: #fc0101;
+  /* color: #fff; */
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+
 @media (max-width: 768px) {
   .wrapper-content .msg-btn {
     display: flex;
@@ -225,5 +237,16 @@
 .wrapper-content .btn button:hover {
   color: #fff;
   
+}
+
+.wrapper-content .btn button span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.wrapper-content .btn button span svg {
+  margin-left: 1rem;
 }
 

@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Contato.css'
 import { useFormik } from "formik";
 import * as Yup from "yup";
+import * as ImIcons from 'react-icons/im'
+import * as MdIcons from 'react-icons/md'
 import { mask as masker, unMask } from "remask";
 import { Container, Body, H1 } from '../Card/style'
-import axios from 'axios'; 
+import axios from 'axios';
 
 const InputMask = ({ mask, value, onChange, ...props }) => {
     const handleChange = (ev) => {
@@ -24,33 +26,45 @@ const ContatoSignup = () => {
         baseURL: process.env.REACT_APP_API_URL
     })
 
+    const [msgOk, setMsgOk] = useState(false);
+    const [msgErro, setMsgErro] = useState(false);
+
+    const [spinner, setSpinner] = useState(false)
+
     const handleSubmit = (values) => {
         // alert(JSON.stringify(values, null, 2));
+
+        setSpinner(true)
+
         const formData = new FormData();
         Object.keys(values).forEach(key => formData.append(key, values[key]));
         api.post('/contato', formData, {
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded'
-                // 'Content-Type': `multpart/form-data; boundary=${formData._boundary}`
             }
         })
 
             .then(response => {
                 console.log(response.status)
-                alert('Email enviado!')
-                // response.render('Msg enviada')
+                // alert('Email enviado!')
+                setMsgOk(true)
+                setSpinner(false)
             })
             .catch((error) => {
-                    console.log(error.response.status);
-                    // document.querySelector('#teste').innerHTML = 'Mensagem não enviada.';
-                    // function Pkna () {
-                    //     return <div dangerouslySetInnerHTML={{__html:'Mensagem não enviada.'}}/>
-                    // }
-                    // console.log('Email não enviado.');
-            })
-    }
+                console.log(error.response.status);
+                // alert('Email não enviado.');
+                // setSpinner(true)
+                setMsgErro(true)
+                setSpinner(false)
+            });
 
-    
+        setTimeout(() => {
+            setMsgOk(false);
+            setMsgErro(false);
+            formik.resetForm();
+        }, 10000)
+        
+    }
 
     const formik = useFormik({
         initialValues: {
@@ -71,7 +85,8 @@ const ContatoSignup = () => {
                 .min(10, "Sua mensagem deve conter mais de 10 caracteres.")
                 .required("Digite sua mensagem.")
         }),
-        onSubmit: (handleSubmit),
+
+        onSubmit: (handleSubmit)
 
     });
 
@@ -154,10 +169,13 @@ const ContatoSignup = () => {
                         </div>
                     </div>
                     <div className="msg-btn">
-                        {/* { <span className="msg">Mensagem enviada com sucesso!</span> } */}
-                        {/* <div id="teste"></div> */}
+                        {msgErro && <span className="msgerro">Mensagem não enviada. Tente mais tarde.</span>}
+                        {msgOk && <span className="msg">Mensagem enviada com sucesso!</span>}
                         <div className="btn">
-                            <button type="submit">Enviar</button>
+                            <button type="submit">
+                                {spinner && <ImIcons.ImSpinner />}
+                                {!spinner && <span>Enviar <MdIcons.MdSend /></span>}
+                            </button>
                         </div>
                     </div>
                 </form>
