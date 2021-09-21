@@ -32,7 +32,6 @@ const ContatoSignup = () => {
     const [spinner, setSpinner] = useState(false)
 
     const handleSubmit = (values) => {
-        // alert(JSON.stringify(values, null, 2));
 
         setSpinner(true)
 
@@ -46,14 +45,11 @@ const ContatoSignup = () => {
 
             .then(response => {
                 console.log(response.status)
-                // alert('Email enviado!')
                 setMsgOk(true)
                 setSpinner(false)
             })
             .catch((error) => {
                 console.log(error.response.status);
-                // alert('Email não enviado.');
-                // setSpinner(true)
                 setMsgErro(true)
                 setSpinner(false)
             });
