@@ -6,9 +6,10 @@ import * as FaIcons from 'react-icons/fa'
 import * as GiIcons from "react-icons/gi"
 
 import {
-    Nav, SidebarRede, SidebarNav, SidebarWrap, SidebarSocial,
-    SidebarLabel, SidebarLink, Background, DropdownLink, Link
+    Nav, SidebarRede, SidebarNav, SidebarWrap, SidebarSocial, RedeSocialUl, Rede,
+    SidebarLabel, SidebarLink, Background, DropdownLink, Link, SidebarRedeLink, Hr
 } from './styles'
+import { RedeSocial } from './SidebarData'
 import avatar from '../../assets/img-02.jpg'
 
 const Sidebar = ({ sidebar, setSidebar, handleClick }) => {
@@ -209,19 +210,20 @@ const Sidebar = ({ sidebar, setSidebar, handleClick }) => {
                                 </SidebarLink>
                             </SidebarRede>
                         </SidebarSocial>
-                        {/* <SidebarSocial>
+                        <Hr />
+                        <RedeSocialUl>
                                 {RedeSocial.map((item, index) => {
                                     return (
-                                        <SidebarRede key={index}>
+                                        <Rede key={index}>
                                             <div>
                                                 <SidebarRedeLink to={item.path} onClick={handleClick}>
                                                     {item.icon}
                                                 </SidebarRedeLink>
                                             </div>
-                                        </SidebarRede>
+                                        </Rede>
                                     )
                                 })}
-                            </SidebarSocial> */}
+                            </RedeSocialUl>
                     </SidebarWrap>
                 </SidebarNav>
             </Background>

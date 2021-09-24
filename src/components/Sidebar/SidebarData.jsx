@@ -95,14 +95,14 @@ export const Pkna = [
 export const RedeSocial = [
     {
         icon: <FaIcons.FaWhatsapp />,
-        path: '/'
+        path: 'https://fontawesome.com/'
     },
     {
         icon: <FaIcons.FaFacebook />,
-        path: '/'
+        path: 'https://www.google.com.br'
     },
     {
         icon: <FaIcons.FaInstagram />,
-        path: '/'
+        path: 'https://www.instagram.com/sensual.moda.intima/'
     }
 ]

@@ -72,7 +72,7 @@ export const Nav = styled.nav`
                 transform: ${({open}) => open ? 'rotate(45deg)' : 'rotate(0)'};
             }
             &:nth-child(2) {
-                transform: ${({open}) => open ? 'translateX(100%)' : 'translate(0)'};
+                transform: ${({open}) => open ? 'translateX(20px)' : 'translateX(0)'};
                 opacity: ${({open}) => open ? '0' : '1'};
             }
             &:nth-child(3) {

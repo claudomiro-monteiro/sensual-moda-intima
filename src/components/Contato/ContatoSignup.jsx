@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import './Contato.css'
 import { useFormik } from "formik";
 import * as Yup from "yup";
-import * as ImIcons from 'react-icons/im'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 import * as MdIcons from 'react-icons/md'
 import { mask as masker, unMask } from "remask";
 import { Container, Body, H1 } from '../Card/style'
@@ -169,7 +170,7 @@ const ContatoSignup = () => {
                         {msgOk && <span className="msg">Mensagem enviada com sucesso!</span>}
                         <div className="btn">
                             <button type="submit">
-                                {spinner && <ImIcons.ImSpinner />}
+                                {spinner && <FontAwesomeIcon icon={faSpinner} spin />}
                                 {!spinner && <span>Enviar <MdIcons.MdSend /></span>}
                             </button>
                         </div>

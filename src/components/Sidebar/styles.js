@@ -85,21 +85,21 @@ export const SidebarLink = styled(LinkS)`
     }
 `;
 
+export const Hr = styled.hr`
+  margin-top: 2rem;
+  border: 0;
+  border: 1px solid #000;
+  width: 100%;
+`;
+
 export const SidebarSocial = styled.ul`
     display: flex;
     flex-flow: column;
-    /* transition: linear 500ms; */
-    /* align-items: center; */
-    /* justify-content: space-around; */
     width: 100%;
-    /* height:100%; */
 `;
 
 export const SidebarRede = styled.li`
-    /* display: flex; */
-    /* justify-content: space-around; */
     width: 100%;
-    /* padding: 0 3rem 0 0; */
     list-style: none;
 `;
 
@@ -110,7 +110,6 @@ export const SidebarRedeLink = styled(LinkR)`
     color: #000;
 
     &:hover {
-        /* background: #ccc; */
         border-left: 0.3rem solid #fff;
         color: #fff;
         border-left: none;
@@ -139,5 +138,18 @@ export const SidebarRedeLink = styled(LinkR)`
         color: #ccc;
     }
  `;
+
+export const RedeSocialUl = styled.ul`
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+align-items: center;
+margin-top: 3rem;
+`;
+
+export const Rede = styled.li`
+display: flex;
+cursor: pointer;
+`;
 
 

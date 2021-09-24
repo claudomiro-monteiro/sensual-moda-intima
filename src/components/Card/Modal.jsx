@@ -63,12 +63,12 @@ const ModalContent = styled.div`
         text-align: center;
     }
 
-    button {
+    /* button {
         padding: 1rem 2rem;
         background: #141414;
         color: #fff;
         border: none;
-    }
+    } */
 
     @media (max-width: 768px) {
         width: 100%;
@@ -115,7 +115,7 @@ const Modal = ({ showModal, setShowModal, card }) => {
                                     <ModalContent>
                                         <p>{modal.title}</p>
                                         <p>{modal.descricao}</p>
-                                        <button>join now</button>
+                                        {/* <button>join now</button> */}
                                     </ModalContent>
 
                                 </ModalWrapper>
