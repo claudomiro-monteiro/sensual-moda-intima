@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import {Link as LinkS} from 'react-scroll';
-import {Link as LinkR} from 'react-router-dom';
+// import {Link as LinkR} from 'react-router-dom';
 
 export const Nav = styled.div`
     width: 100%;
@@ -103,7 +103,7 @@ export const SidebarRede = styled.li`
     list-style: none;
 `;
 
-export const SidebarRedeLink = styled(LinkR)`
+export const SidebarRedeLink = styled.a`
     text-decoration: none;
     font-size: 4rem;
     text-transform: capitalize;
@@ -151,5 +151,7 @@ export const Rede = styled.li`
 display: flex;
 cursor: pointer;
 `;
+
+// export const SidebarRedeLink = styled(LinkR)
 
 

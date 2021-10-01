@@ -112,6 +112,22 @@ const Sidebar = ({ sidebar, setSidebar, handleClick }) => {
                                                 </SidebarLabel>
                                             </DropdownLink>
                                         </SidebarRede>
+                                        <SidebarRede>
+                                            <DropdownLink activeClass="active"
+                                                to="camisola"
+                                                spy={true}
+                                                smooth={true}
+                                                hashSpy={true}
+                                                offset={-60}
+                                                duration={400}
+                                                delay={100}
+                                            //  onClick={scrollToTop}
+                                            >
+                                                <SidebarLabel onClick={closedSublink}>
+                                                    Camisola
+                                                </SidebarLabel>
+                                            </DropdownLink>
+                                        </SidebarRede>
                                     </SidebarSocial>
                                 ) : null}
                             </SidebarRede>
@@ -212,18 +228,18 @@ const Sidebar = ({ sidebar, setSidebar, handleClick }) => {
                         </SidebarSocial>
                         <Hr />
                         <RedeSocialUl>
-                                {RedeSocial.map((item, index) => {
-                                    return (
-                                        <Rede key={index}>
-                                            <div>
-                                                <SidebarRedeLink to={item.path} onClick={handleClick}>
-                                                    {item.icon}
-                                                </SidebarRedeLink>
-                                            </div>
-                                        </Rede>
-                                    )
-                                })}
-                            </RedeSocialUl>
+                            {RedeSocial.map((item, index) => {
+                                return (
+                                    <Rede key={index}>
+                                        <div>
+                                            <SidebarRedeLink href={item.path} onClick={handleClick}>
+                                                {item.icon}
+                                            </SidebarRedeLink> 
+                                        </div>
+                                    </Rede>
+                                )
+                            })}
+                        </RedeSocialUl>
                     </SidebarWrap>
                 </SidebarNav>
             </Background>

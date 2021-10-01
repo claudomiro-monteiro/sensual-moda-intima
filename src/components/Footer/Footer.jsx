@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {FaFacebook,FaInstagram,FaPhone, FaMailBulk, FaWhatsapp} from 'react-icons/fa'
 
 import './style'
@@ -11,15 +11,15 @@ const footer = () => {
             <RedeSocial>
                 {/* <div className="App"> */}
                     <div className="link">
-                        <Router>
+                        {/* <Router> */}
                             <h2>Pijamas</h2>
                             <Link to="/" className="social">Pijama Feminino</Link>
                             <Link to="/" className="social">Pijama Masculino</Link>
                             <Link to="/" className="social">Pijama Infantil</Link>
-                        </Router>
+                        {/* </Router> */}
                     </div>
                     <div className="link">
-                        <Router>
+                        {/* <Router> */}
                             <h2>Contato</h2>
                             <Link to="/" className="social">
                                 <FaPhone className="space" size="3rem" />
@@ -33,18 +33,18 @@ const footer = () => {
                                 <FaMailBulk className="space" size="3rem" />
                                 <div className="hide">sensualmdintima@gmail.com</div>
                             </Link>
-                        </Router>
+                        {/* </Router> */}
                     </div>
                     <div className="link">
-                        <Router>
+                        {/* <Router> */}
                             <h2>Rede Social</h2>
-                            <Link to="/" className="social">
+                            <a href="https://www.facebook.com/Sensual-Moda-Intima-708833402783149" className="social">
                                 <FaFacebook size="3rem" />
-                            </Link>
-                            <Link to="/" className="social">
+                            </a>
+                            <a href="https://www.instagram.com/sensual.moda.intima/" className="social">
                                 <FaInstagram size="3rem" />
-                            </Link>
-                        </Router>
+                            </a>
+                        {/* </Router> */}
                     </div>
                 {/* </div> */}
             </RedeSocial>
