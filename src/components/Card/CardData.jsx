@@ -7,15 +7,17 @@ import card5 from '../../assets/feminino/f_05.jpg'
 export const CardData = [
     {
         id: 1,
-        title: 'pijama',
+        title: 'Camisola Regata',
         img: card1,
         tamanho: 'Tam. p m g gG',
         preco: 'R$30,00',
         modal: [
             {
-                title: 'pijama',
+                title: 'Camisola regata',
                 img: card1,
-                descricao: 'pijama de malha.'
+                descricao: 'camisola regata de malha.',
+                composicao: 'poliester com viscose',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
