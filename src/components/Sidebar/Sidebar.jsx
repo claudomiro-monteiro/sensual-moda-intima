@@ -10,7 +10,7 @@ import {
     SidebarLabel, SidebarLink, Background, DropdownLink, Link, SidebarRedeLink, Hr
 } from './styles'
 import { RedeSocial } from './SidebarData'
-import avatar from '../../assets/img-02.jpg'
+import avatar from '../../assets/img-01.jpg'
 
 const Sidebar = ({ sidebar, setSidebar, handleClick }) => {
     const modalRef = useRef();
@@ -51,8 +51,18 @@ const Sidebar = ({ sidebar, setSidebar, handleClick }) => {
             <Background sidebar={sidebar} ref={modalRef} onClick={closedSidenav}>
                 <SidebarNav sidebar={sidebar}>
                     <SidebarWrap>
-                        <Nav onClick={handleClick}>
+                        <Nav onClick={handleClick}
+                            activeClass="active"
+                            to="adulto"
+                            spy={true}
+                            smooth={true}
+                            hashSpy={true}
+                            offset={-60}
+                            duration={400}
+                            delay={100}
+                        >
                             <img src={avatar} alt="" />
+
                         </Nav>
                         <SidebarSocial>
                             <SidebarRede>
@@ -63,7 +73,9 @@ const Sidebar = ({ sidebar, setSidebar, handleClick }) => {
                                     hashSpy={true}
                                     offset={-60}
                                     duration={400}
-                                    delay={100} onClick={scrollToTop}>
+                                    delay={100}
+                                    onClick={scrollToTop}
+                                >
                                     <AiIcons.AiFillHome />
                                     <SidebarLabel onClick={handleClick}>
                                         Inicio
@@ -128,6 +140,86 @@ const Sidebar = ({ sidebar, setSidebar, handleClick }) => {
                                                 </SidebarLabel>
                                             </DropdownLink>
                                         </SidebarRede>
+                                        <SidebarRede>
+                                            <DropdownLink activeClass="active"
+                                                to="calcinha"
+                                                spy={true}
+                                                smooth={true}
+                                                hashSpy={true}
+                                                offset={-60}
+                                                duration={400}
+                                                delay={100}
+                                            //  onClick={scrollToTop}
+                                            >
+                                                <SidebarLabel onClick={closedSublink}>
+                                                    Calcinha
+                                                </SidebarLabel>
+                                            </DropdownLink>
+                                        </SidebarRede>
+                                        <SidebarRede>
+                                            <DropdownLink activeClass="active"
+                                                to="soutien"
+                                                spy={true}
+                                                smooth={true}
+                                                hashSpy={true}
+                                                offset={-60}
+                                                duration={400}
+                                                delay={100}
+                                            //  onClick={scrollToTop}
+                                            >
+                                                <SidebarLabel onClick={closedSublink}>
+                                                    Soutien
+                                                </SidebarLabel>
+                                            </DropdownLink>
+                                        </SidebarRede>
+                                        <SidebarRede>
+                                            <DropdownLink activeClass="active"
+                                                to="gestante"
+                                                spy={true}
+                                                smooth={true}
+                                                hashSpy={true}
+                                                offset={-60}
+                                                duration={400}
+                                                delay={100}
+                                            //  onClick={scrollToTop}
+                                            >
+                                                <SidebarLabel onClick={closedSublink}>
+                                                    Linha Gestante
+                                                </SidebarLabel>
+                                            </DropdownLink>
+                                        </SidebarRede>
+                                        <SidebarRede>
+                                            <DropdownLink activeClass="active"
+                                                to="sexy"
+                                                spy={true}
+                                                smooth={true}
+                                                hashSpy={true}
+                                                offset={-60}
+                                                duration={400}
+                                                delay={100}
+                                            //  onClick={scrollToTop}
+                                            >
+                                                <SidebarLabel onClick={closedSublink}>
+                                                    Linha Sexy
+                                                </SidebarLabel>
+                                            </DropdownLink>
+                                        </SidebarRede>
+                                        <SidebarRede>
+                                            <DropdownLink activeClass="active"
+                                                to="sexshop"
+                                                spy={true}
+                                                smooth={true}
+                                                hashSpy={true}
+                                                offset={-60}
+                                                duration={400}
+                                                delay={100}
+                                            //  onClick={scrollToTop}
+                                            >
+                                                <SidebarLabel onClick={closedSublink}>
+                                                    Sexshop
+                                                </SidebarLabel>
+                                            </DropdownLink>
+                                        </SidebarRede>
                                     </SidebarSocial>
                                 ) : null}
                             </SidebarRede>
@@ -171,6 +263,23 @@ const Sidebar = ({ sidebar, setSidebar, handleClick }) => {
                                                 {/* <FaIcons.FaFemale /> */}
                                                 <SidebarLabel onClick={closedSublink}>
                                                     Pijama Infantil
+                                                </SidebarLabel>
+                                            </DropdownLink>
+                                        </SidebarRede>
+                                        <SidebarRede>
+                                            <DropdownLink activeClass="active"
+                                                to="cueca"
+                                                spy={true}
+                                                smooth={true}
+                                                hashSpy={true}
+                                                offset={-60}
+                                                duration={400}
+                                                delay={100}
+                                            // onClick={scrollToTop}
+                                            >
+                                                {/* <FaIcons.FaFemale /> */}
+                                                <SidebarLabel onClick={closedSublink}>
+                                                    Cueca
                                                 </SidebarLabel>
                                             </DropdownLink>
                                         </SidebarRede>
@@ -234,7 +343,7 @@ const Sidebar = ({ sidebar, setSidebar, handleClick }) => {
                                         <div>
                                             <SidebarRedeLink href={item.path} onClick={handleClick}>
                                                 {item.icon}
-                                            </SidebarRedeLink> 
+                                            </SidebarRedeLink>
                                         </div>
                                     </Rede>
                                 )

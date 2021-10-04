@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {Link as LinkS} from 'react-scroll';
 // import {Link as LinkR} from 'react-router-dom';
 
-export const Nav = styled.div`
+export const Nav = styled(LinkS)`
     width: 100%;
     /* height: 15rem; */
     /* border-radius: 50%; */

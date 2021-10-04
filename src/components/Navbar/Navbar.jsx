@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Dropdown, DropdownMasc } from '../Dropdown/Dropdown';
-import logo from '../../assets/logo_loja.png';
+import logo from '../../assets/logo_loja_02.png';
 import { animateScroll as scroll } from 'react-scroll'
 
 import { MobileMenu, Nav, NavbarContainer, NavItem, NavLogo, NavMenu, NavLinks } from './styles'

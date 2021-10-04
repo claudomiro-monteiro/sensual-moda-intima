@@ -31,7 +31,7 @@ export const RedeSocial = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
-        /* padding: 0.3rem; */
+        cursor: pointer;
         margin: 0.5rem;
         text-decoration: none;
         color: #000;
@@ -41,20 +41,6 @@ export const RedeSocial = styled.div`
         margin-right: 0.5rem;
 }
 
-/* .rede {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    font-size: 4rem;
-    margin: 2rem 9rem;
-
-    &:hover {
-        color: #fff;
-        cursor: pointer;
-    }
-} */
     @media (max-width: 768px) {
         .hide {
             display: none;
@@ -70,3 +56,4 @@ export const Adress = styled.div`
     margin: 1rem;
     line-height: 2rem;
 `;
+
