@@ -61,12 +61,13 @@
     height: 40vw;
     background-color: #4a7475;
     color: #fff;
+    object-fit: cover;
   }
   
   .carousel-item img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
   }
   
   .indicators {
