@@ -93,8 +93,8 @@ const Modal = ({ showModal, setShowModal, card }) => {
     return (
         <>
             {showModal ? (
-                <Background>
-                    <Container  ref={modalRef} onClick={closedModal}>
+                <Background ref={modalRef} onClick={closedModal}>
+                    <Container>
                         {card.modal.map((modal, id) => {
                             return (
                                 <ModalWrapper showModal={showModal} key={id}>

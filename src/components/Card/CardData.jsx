@@ -15,8 +15,8 @@ export const CardData = [
             {
                 title: 'Camisola regata',
                 img: card1,
-                descricao: 'camisola regata de malha.',
-                composicao: 'poliester com viscose',
+                descricao: 'descrição: camisola regata de malha.',
+                composicao: 'composição: poliester com viscose',
                 tamanho: 'tamanho: p m g GG'
             }
         ]

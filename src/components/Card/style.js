@@ -26,6 +26,7 @@ export const H1 = styled.h2`
     display: flex;
     flex-flow: wrap;
     padding: 2rem ;
+    font-family: 'Cinzel', serif;
     `;
 
 export const CardContainer = styled.div`

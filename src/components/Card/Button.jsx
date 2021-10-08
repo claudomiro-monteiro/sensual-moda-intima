@@ -20,6 +20,7 @@ const Botao = styled.button`
       font-size: 1.2rem;
       font-weight: 600;
       cursor: pointer;
+      font-family: 'Merriweather', serif;
 
       &&:hover {
           color: #fff;
