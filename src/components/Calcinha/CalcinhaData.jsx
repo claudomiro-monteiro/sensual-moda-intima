@@ -1,119 +1,122 @@
-import card1 from '../../assets/feminino/f_01.jpg'
-import card2 from '../../assets/feminino/f_02.jpg'
-import card3 from '../../assets/feminino/f_03.jpg'
-import card4 from '../../assets/feminino/f_04.jpg'
-import card5 from '../../assets/feminino/f_05.jpg'
+import card1 from '../../assets/feminino/calcinha/calcinha_algodao_02.png'
+import card2 from '../../assets/feminino/calcinha/calcinha_algodao_04.png'
+import card3 from '../../assets/feminino/calcinha/calcinha_algodao_06.png'
+import card4 from '../../assets/feminino/calcinha/calcinha_algodao_09.png'
+import card5 from '../../assets/feminino/calcinha/calcinha_sem_costura_01.png'
+import card6 from '../../assets/feminino/calcinha/calcinha_microfibra_03.png'
+import card7 from '../../assets/feminino/calcinha/calcinha_microfibra_01.png'
+import card8 from '../../assets/feminino/calcinha/calesson.png'
 
 export const CalcinhaData = [
     {
         id: 1,
-        title: 'pijama infantil',
+        title: 'calcinha de algodão',
         img: card1,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$7,90',
         modal: [
             {
-                title: 'pijama',
+                title: 'calcinha de algodão',
                 img: card1,
-                descricao: 'pijama de malha.'
+                descricao: 'composição: algodão 96% | elastano 4%.'
             }
         ]
     },
     {
         id: 2,
-        title: 'baby doll alça',
+        title: 'calcinha de algodão',
         img: card2,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$40,00',
+        preco: 'R$7,90',
         modal: [
             {
-                title: 'baby doll alça',
+                title: 'calcinha de algodão',
                 img: card2,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                descricao: 'composição: algodão 96% | elastano 4%.'
             }
         ]
     },
     {
         id: 3,
-        title: 'camisola',
+        title: 'calcinha de algodão',
         img: card3,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$50,00',
+        preco: 'R$6,90',
         modal: [
             {
-                title: 'baby doll alça',
+                title: 'calcinha de algodão',
                 img: card3,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                descricao: 'composição: algodão 96% | elastano 4%.'
             }
         ]
     },
     {
         id: 4,
-        title: 'cartão',
+        title: 'calcinha de algodão',
         img: card4,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$7,90',
         modal: [
             {
-                title: 'baby doll alça',
+                title: 'calcinha de algodão',
                 img: card4,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                descricao: 'composição: algodão 96% | elastano 4%.'
             }
         ]
     },
     {
         id: 5,
-        title: 'baby doll',
+        title: 'calcinha sem costura',
         img: card5,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$10,00',
         modal: [
             {
-                title: 'baby doll alça',
+                title: 'calcinha sem costura',
                 img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                descricao: 'composição: Polimiada 100%.'
             }
         ]
     },
     {
         id: 6,
-        title: 'baby doll',
-        img: card5,
+        title: 'calcinha de microfibra',
+        img: card6,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$6,00',
         modal: [
             {
-                title: 'baby doll alça',
-                img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                title: 'calcinha de microfibra',
+                img: card6,
+                descricao: 'composição: poliamida 100%.'
             }
         ]
     },
     {
         id: 7,
-        title: 'baby doll',
-        img: card5,
+        title: 'calcinha de microfibra',
+        img: card7,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$7,90',
         modal: [
             {
-                title: 'baby doll alça',
-                img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                title: 'calcinha de microfibra',
+                img: card7,
+                descricao: 'composição: poliamida 100%.'
             }
         ]
     },
     {
         id: 8,
-        title: 'baby doll',
-        img: card5,
+        title: 'calcinha calesson',
+        img: card8,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$12,00',
         modal: [
             {
-                title: 'baby doll alça',
-                img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                title: 'calcinha calesson',
+                img: card8,
+                descricao: 'composição: 100% renda.'
             }
         ]
     }

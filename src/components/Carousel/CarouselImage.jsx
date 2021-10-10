@@ -3,7 +3,7 @@ import React from 'react'
 
 import Carousel, { CarouselItem } from "./Carousel";
 
-import img01 from '../../assets/slide/01.jpg'
+import img01 from '../../assets/slide/slide_02.png'
 import img02 from '../../assets/slide/02.jpg'
 import img03 from '../../assets/slide/03.jpg'
 import img04 from '../../assets/slide/04.jpg'
