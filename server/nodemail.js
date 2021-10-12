@@ -31,7 +31,7 @@ module.exports = (email, nome, telefone, mensagem) => {
     
     const mail = {
         from: email,
-        to: 'claudomiromonteiro@gmail.com',
+        to: process.env.USER_NAME,
         subject: `${nome} te enviou uma mensagem`,
         html: output
     }
