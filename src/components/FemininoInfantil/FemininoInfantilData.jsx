@@ -1,119 +1,138 @@
-import card1 from '../../assets/feminino/f_01.jpg'
-import card2 from '../../assets/feminino/f_02.jpg'
-import card3 from '../../assets/feminino/f_03.jpg'
-import card4 from '../../assets/feminino/f_04.jpg'
-import card5 from '../../assets/feminino/f_05.jpg'
+import card1 from '../../assets/feminino/baby_doll_infantil/baby_doll_infantil_01.png'
+import card2 from '../../assets/feminino/baby_doll_infantil/baby_doll_infantil_02.png'
+import card3 from '../../assets/feminino/baby_doll_infantil/baby_doll_infantil_03.png'
+import card4 from '../../assets/feminino/baby_doll_infantil/baby_doll_infantil_04.png'
+import card5 from '../../assets/feminino/baby_doll_infantil/camisola_infantil_01.png'
+import card6 from '../../assets/feminino/baby_doll_infantil/camisola_infantil_02.png'
+import card7 from '../../assets/feminino/baby_doll_infantil/camisola_infantil_03.png'
+import card8 from '../../assets/feminino/baby_doll_infantil/camisola_infantil_04.png'
 
 export const FemininoInfantilData = [
     {
         id: 1,
-        title: 'pijama infantil',
+        title: 'baby doll infantil',
         img: card1,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$29,90',
         modal: [
             {
-                title: 'pijama',
+                title: 'baby doll infantil',
                 img: card1,
-                descricao: 'pijama de malha.'
+                descricao: 'descrição: baby doll infantil.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 2,
-        title: 'baby doll alça',
+        title: 'baby doll infantil',
         img: card2,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$40,00',
+        preco: 'R$29,90',
         modal: [
             {
-                title: 'baby doll alça',
+                title: 'baby doll infantil',
                 img: card2,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                descricao: 'descrição: baby doll infantil.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 3,
-        title: 'camisola',
+        title: 'baby doll infantil',
         img: card3,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$50,00',
+        preco: 'R$29,90',
         modal: [
             {
-                title: 'baby doll alça',
+                title: 'baby doll infantil',
                 img: card3,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                descricao: 'descrição: baby doll infantil.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 4,
-        title: 'cartão',
+        title: 'baby doll infantil',
         img: card4,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$29,90',
         modal: [
             {
-                title: 'baby doll alça',
+                title: 'baby doll infantil',
                 img: card4,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                descricao: 'descrição: baby doll infantil.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 5,
-        title: 'baby doll',
+        title: 'camisola infantil',
         img: card5,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$28,00',
         modal: [
             {
-                title: 'baby doll alça',
+                title: 'camisola infantil',
                 img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                descricao: 'descrição: camisola infantil.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 6,
-        title: 'baby doll',
-        img: card5,
+        title: 'camisola infantil',
+        img: card6,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$28,00',
         modal: [
             {
-                title: 'baby doll alça',
-                img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                title: 'camisola infantil',
+                img: card6,
+                descricao: 'descrição: camisola infantil.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 7,
-        title: 'baby doll',
-        img: card5,
+        title: 'camisola infantil',
+        img: card7,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$28,00',
         modal: [
             {
-                title: 'baby doll alça',
-                img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                title: 'camisola infantil',
+                img: card7,
+                descricao: 'descrição: camisola infantil.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 8,
-        title: 'baby doll',
-        img: card5,
+        title: 'camisola infantil',
+        img: card8,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$28,00',
         modal: [
             {
-                title: 'baby doll alça',
-                img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                title: 'camisola infantil',
+                img: card8,
+                descricao: 'descrição: camisola infantil.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     }
