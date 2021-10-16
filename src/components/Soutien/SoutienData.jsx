@@ -1,119 +1,138 @@
-import card1 from '../../assets/feminino/f_01.jpg'
-import card2 from '../../assets/feminino/f_02.jpg'
-import card3 from '../../assets/feminino/f_03.jpg'
-import card4 from '../../assets/feminino/f_04.jpg'
-import card5 from '../../assets/feminino/f_05.jpg'
+import card1 from '../../assets/feminino/soutien/1001.png'
+import card2 from '../../assets/feminino/soutien/1009.png'
+import card3 from '../../assets/feminino/soutien/1016.png'
+import card4 from '../../assets/feminino/soutien/soutien_microfibra.png'
+import card5 from '../../assets/feminino/soutien/soutien_lycra.png'
+import card6 from '../../assets/feminino/soutien/soutien_algodao.png'
+import card7 from '../../assets/feminino/soutien/soutien_coton.png'
+import card8 from '../../assets/feminino/soutien/soutien_catarina.png'
 
 export const SoutienData = [
     {
         id: 1,
-        title: 'pijama infantil',
+        title: 'soutien bojo liso',
         img: card1,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$23,90',
         modal: [
             {
-                title: 'pijama',
+                title: 'soutien bojo liso',
                 img: card1,
-                descricao: 'pijama de malha.'
+                descricao: 'descrição: soutien bojo liso.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 2,
-        title: 'baby doll alça',
+        title: 'soutien bojo e renda',
         img: card2,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$40,00',
+        preco: 'R$27,90',
         modal: [
             {
-                title: 'baby doll alça',
+                title: 'soutien bojo e renda',
                 img: card2,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                descricao: 'descrição: soutien bojo e renda.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 3,
-        title: 'camisola',
+        title: 'tomara que caia',
         img: card3,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$50,00',
+        preco: 'R$32,90',
         modal: [
             {
-                title: 'baby doll alça',
+                title: 'tomara que caia',
                 img: card3,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                descricao: 'descrição: tomara que caia.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 4,
-        title: 'cartão',
+        title: 'soutien de microfibra',
         img: card4,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$23,90',
         modal: [
             {
-                title: 'baby doll alça',
+                title: 'soutien de microfibra',
                 img: card4,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                descricao: 'descrição: soutien de microfibra.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 5,
-        title: 'baby doll',
+        title: 'soutien de lycra',
         img: card5,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$19,90',
         modal: [
             {
-                title: 'baby doll alça',
+                title: 'soutien de lycra',
                 img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                descricao: 'descrição: soutien de lycra.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 6,
-        title: 'baby doll',
-        img: card5,
+        title: 'soutien de algodão',
+        img: card6,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$23,90',
         modal: [
             {
-                title: 'baby doll alça',
-                img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                title: 'soutien de algodão',
+                img: card6,
+                descricao: 'descrição: soutien de algodão.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 7,
-        title: 'baby doll',
-        img: card5,
+        title: 'soutien de coton',
+        img: card7,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$18,00',
         modal: [
             {
-                title: 'baby doll alça',
-                img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                title: 'soutien de coton',
+                img: card7,
+                descricao: 'descrição: soutien de coton.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 8,
-        title: 'baby doll',
-        img: card5,
-        tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        title: 'soutien reforçado',
+        img: card8,
+        tamanho: 'Tam. 48 50 52 54',
+        preco: 'R$25,00',
         modal: [
             {
-                title: 'baby doll alça',
-                img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                title: 'soutien reforçado', 
+                img: card8, 
+                descricao: 'descrição: soutien reforçado.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: 48 50 52 54'
             }
         ]
     }

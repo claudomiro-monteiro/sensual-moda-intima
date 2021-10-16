@@ -1,119 +1,138 @@
-import card1 from '../../assets/feminino/f_01.jpg'
-import card2 from '../../assets/feminino/f_02.jpg'
-import card3 from '../../assets/feminino/f_03.jpg'
-import card4 from '../../assets/feminino/f_04.jpg'
-import card5 from '../../assets/feminino/f_05.jpg'
+import card1 from '../../assets/feminino/baby_doll/short_aberto_01.png'
+import card2 from '../../assets/feminino/baby_doll/short_aberto_02.png'
+import card3 from '../../assets/feminino/baby_doll/pijama_amamentar_01.png'
+import card4 from '../../assets/feminino/baby_doll/pijama_amamentar_02.png'
+import card5 from '../../assets/feminino/camisola/camisola_amamentar_01.png' 
+import card6 from '../../assets/feminino/camisola/camisola_amamentar_02.png'
+import card7 from '../../assets/feminino/camisola/camisola_regata_aberta.png'
+import card8 from '../../assets/feminino/camisola/camisola_manga_aberta_01.png'
 
 export const GestanteData = [
     {
         id: 1,
-        title: 'pijama infantil',
+        title: 'short doll regata',
         img: card1,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$52,00',
         modal: [
             {
-                title: 'pijama',
+                title: 'short doll regata',
                 img: card1,
-                descricao: 'pijama de malha.'
+                descricao: 'descrição: short doll regata.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 2,
-        title: 'baby doll alça',
+        title: 'short doll regata',
         img: card2,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$40,00',
+        preco: 'R$52,00',
         modal: [
             {
-                title: 'baby doll alça',
+                title: 'short doll regata',
                 img: card2,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                descricao: 'descrição: short doll regata.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 3,
-        title: 'camisola',
+        title: 'short doll com botão na alça',
         img: card3,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$50,00',
+        preco: 'R$52,00',
         modal: [
             {
-                title: 'baby doll alça',
+                title: 'short doll com botão na alça',
                 img: card3,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                descricao: 'descrição: short doll com botão na alça.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 4,
-        title: 'cartão',
+        title: 'short doll com botão na alça',
         img: card4,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$52,00',
         modal: [
             {
-                title: 'baby doll alça',
+                title: 'short doll com botão na alça',
                 img: card4,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                descricao: 'descrição: short doll com botão na alça.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 5,
-        title: 'baby doll',
+        title: 'camisola amamentar',
         img: card5,
         tamanho: 'Tam. p m g gG',
         preco: 'R$30,00',
         modal: [
             {
-                title: 'baby doll alça',
+                title: 'camisola amamentar',
                 img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                descricao: 'descrição: camisola amamentar.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 6,
-        title: 'baby doll',
-        img: card5,
+        title: 'camisola amamentar',
+        img: card6,
         tamanho: 'Tam. p m g gG',
         preco: 'R$30,00',
         modal: [
             {
-                title: 'baby doll alça',
-                img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                title: 'camisola amamentar',
+                img: card6,
+                descricao: 'descrição: camisola amamentar.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 7,
-        title: 'baby doll',
-        img: card5,
+        title: 'camisola regata aberta',
+        img: card7,
         tamanho: 'Tam. p m g gG',
         preco: 'R$30,00',
         modal: [
             {
-                title: 'baby doll alça',
-                img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                title: 'camisola regata aberta',
+                img: card7,
+                descricao: 'descrição: camisola regata aberta.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 8,
-        title: 'baby doll',
-        img: card5,
+        title: 'camisola manga aberta',
+        img: card8,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$40,00',
         modal: [
             {
-                title: 'baby doll alça',
-                img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                title: 'camisola manga aberta',
+                img: card8,
+                descricao: 'descrição: camisola manga aberta.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     }

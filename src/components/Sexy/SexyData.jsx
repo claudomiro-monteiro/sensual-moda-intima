@@ -1,119 +1,92 @@
-import card1 from '../../assets/feminino/f_01.jpg'
-import card2 from '../../assets/feminino/f_02.jpg'
-import card3 from '../../assets/feminino/f_03.jpg'
-import card4 from '../../assets/feminino/f_04.jpg'
-import card5 from '../../assets/feminino/f_05.jpg'
+import card1 from '../../assets/feminino/fantasia/apaixonada.png'
+import back from '../../assets/feminino/fantasia/apaixonada_back.png'
+import card2 from '../../assets/feminino/fantasia/medica.png'
+import back2 from '../../assets/feminino/fantasia/medica_back.png'
+import card3 from '../../assets/feminino/fantasia/mulher_maravilha.png'
+import back3 from '../../assets/feminino/fantasia/mulher_maravilha_back.png'
+import card4 from '../../assets/feminino/fantasia/ninja.png'
+import back4 from '../../assets/feminino/fantasia/ninja_back.png'
+import card5 from '../../assets/feminino/fantasia/patricinha.png'
+import back5 from '../../assets/feminino/fantasia/patricinha_back.png'
 
 export const SexyData = [
     {
         id: 1,
-        title: 'pijama infantil',
+        title: 'mini apaixonada',
         img: card1,
-        tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        tamanho: 'Único',
+        preco: 'R$32,00',
         modal: [
             {
-                title: 'pijama',
-                img: card1,
-                descricao: 'pijama de malha.'
+                title: 'mini apaixonada',
+                img: back,
+                descricao: 'descrição: baby doll alça silk.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: único'
             }
         ]
     },
     {
         id: 2,
-        title: 'baby doll alça',
+        title: 'mini médica',
         img: card2,
-        tamanho: 'Tam. p m g gG',
-        preco: 'R$40,00',
+        tamanho: 'Tam. único',
+        preco: 'R$32,00',
         modal: [
             {
-                title: 'baby doll alça',
-                img: card2,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                title: 'mini médica',
+                img: back2,
+                descricao: 'descrição: mini médica.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: único'
             }
         ]
     },
     {
         id: 3,
-        title: 'camisola',
+        title: 'mini mulher maravilha',
         img: card3,
-        tamanho: 'Tam. p m g gG',
-        preco: 'R$50,00',
+        tamanho: 'Tam. único',
+        preco: 'R$32,00',
         modal: [
             {
-                title: 'baby doll alça',
-                img: card3,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                title: 'mini mulher maravilha',
+                img: back3,
+                descricao: 'descrição: mini mulher maravilha.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: único'
             }
         ]
     },
     {
         id: 4,
-        title: 'cartão',
+        title: 'mini ninja',
         img: card4,
-        tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        tamanho: 'Tam. único',
+        preco: 'R$32,00',
         modal: [
             {
-                title: 'baby doll alça',
-                img: card4,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                title: 'mini ninja',
+                img: back4,
+                descricao: 'descrição: mini ninja.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: único'
             }
         ]
     },
     {
         id: 5,
-        title: 'baby doll',
+        title: 'mini patricinha',
         img: card5,
-        tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        tamanho: 'Tam. único',
+        preco: 'R$32,00',
         modal: [
             {
-                title: 'baby doll alça',
-                img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
-            }
-        ]
-    },
-    {
-        id: 6,
-        title: 'baby doll',
-        img: card5,
-        tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
-        modal: [
-            {
-                title: 'baby doll alça',
-                img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
-            }
-        ]
-    },
-    {
-        id: 7,
-        title: 'baby doll',
-        img: card5,
-        tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
-        modal: [
-            {
-                title: 'baby doll alça',
-                img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
-            }
-        ]
-    },
-    {
-        id: 8,
-        title: 'baby doll',
-        img: card5,
-        tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
-        modal: [
-            {
-                title: 'baby doll alça',
-                img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                title: 'mini patricinha',
+                img: back5,
+                descricao: 'descrição: mini patricinha.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: único'
             }
         ]
     }
