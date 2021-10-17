@@ -8,6 +8,12 @@ import card4 from '../../assets/feminino/fantasia/ninja.png'
 import back4 from '../../assets/feminino/fantasia/ninja_back.png'
 import card5 from '../../assets/feminino/fantasia/patricinha.png'
 import back5 from '../../assets/feminino/fantasia/patricinha_back.png'
+import card6 from '../../assets/feminino/fantasia/laiz.png'
+import back6 from '../../assets/feminino/fantasia/laiz_back.png'
+import card7 from '../../assets/feminino/fantasia/laiz_onca.png'
+import back7 from '../../assets/feminino/fantasia/laiz_onca_back.png'
+import card8 from '../../assets/feminino/fantasia/ana_tule.png'
+import back8 from '../../assets/feminino/fantasia/ana_tule_back.png'
 
 export const SexyData = [
     {
@@ -87,6 +93,54 @@ export const SexyData = [
                 descricao: 'descrição: mini patricinha.',
                 composicao: 'composição: 67% poliester | 33% viscose ',
                 tamanho: 'tamanho: único'
+            }
+        ]
+    },
+    {
+        id: 6,
+        title: 'baby doll aline',
+        img: card6,
+        tamanho: 'Tam. p m g GG',
+        preco: 'R$42,00',
+        modal: [
+            {
+                title: 'baby doll aline',
+                img: back6,
+                descricao: 'descrição: baby doll aline.',
+                composicao: 'composição: 96% poliéster | 4% elastano ',
+                tamanho: 'tamanho: p m g GG'
+            }
+        ]
+    },
+    {
+        id: 7,
+        title: 'camisola laiz',
+        img: card7,
+        tamanho: 'Tam. p m g GG',
+        preco: 'R$42,00',
+        modal: [
+            {
+                title: 'camisola laiz',
+                img: back7,
+                descricao: 'descrição: camisola laiz.',
+                composicao: 'composição: 96% poliéster | 4% elastano ',
+                tamanho: 'tamanho: p m g GG'
+            }
+        ]
+    },
+    {
+        id: 8,
+        title: 'camisola ana',
+        img: card8,
+        tamanho: 'Tam. p m g GG',
+        preco: 'R$38,00',
+        modal: [
+            {
+                title: 'camisola ana',
+                img: back8,
+                descricao: 'descrição: camisola ana.',
+                composicao: 'composição: Tule: 92% poliéster 8% spandex | Renda: 87% poliamida | 13% elastano ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     }

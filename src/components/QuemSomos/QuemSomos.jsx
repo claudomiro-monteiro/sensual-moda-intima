@@ -1,5 +1,5 @@
 import React from 'react'
-import quem_somos from '../../assets/img-01.jpg'
+import quem_somos from '../../assets/feminino/fantasia/laiz_rubro.jpg'
 import { Container, H1, Texto, Image, Body } from './style'
 
 const QuemSomos = () => {

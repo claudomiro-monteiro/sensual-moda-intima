@@ -10,7 +10,7 @@ import {
     SidebarLabel, SidebarLink, Background, DropdownLink, Link, SidebarRedeLink, Hr
 } from './styles'
 import { RedeSocial } from './SidebarData'
-import avatar from '../../assets/img-01.jpg'
+import avatar from '../../assets/feminino/fantasia/laiz_rubro.jpg'
 
 const Sidebar = ({ sidebar, setSidebar, handleClick }) => {
     const modalRef = useRef();

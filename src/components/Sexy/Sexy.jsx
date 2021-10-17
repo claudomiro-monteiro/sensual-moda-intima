@@ -6,7 +6,7 @@ import { Container, Body, H1, CardContainer, CardTitle, CardImage, CardBody } fr
 const Sexy = () => {
     return (
         <Container id="sexy">
-            <H1>Sexy</H1>
+            <H1>Linha Sexy</H1>
             <Body>
                 {SexyData.map((card) => {
                     return (

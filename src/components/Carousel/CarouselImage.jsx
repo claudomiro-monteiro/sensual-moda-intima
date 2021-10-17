@@ -4,10 +4,10 @@ import React from 'react'
 import Carousel, { CarouselItem } from "./Carousel";
 
 import img01 from '../../assets/slide/slide_02.png'
-import img02 from '../../assets/slide/02.jpg'
-import img03 from '../../assets/slide/03.jpg'
-import img04 from '../../assets/slide/04.jpg'
-import img05 from '../../assets/slide/05.jpg'
+import img02 from '../../assets/slide/slide_03.png'
+import img03 from '../../assets/slide/slide_04.png'
+import img04 from '../../assets/slide/slide_05.png'
+import img05 from '../../assets/slide/slide_06.png'
 
 const CarouselImage = () => {
     return (
