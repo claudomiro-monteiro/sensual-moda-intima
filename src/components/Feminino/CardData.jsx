@@ -13,7 +13,7 @@ export const CardData = [
         title: 'camisola regata aberta',
         img: card1,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$54,90',
         modal: [
             {
                 title: 'camisola regata aberta',
@@ -29,7 +29,7 @@ export const CardData = [
         title: 'camisola manga aberta',
         img: card2,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$40,00',
+        preco: 'R$49,90',
         modal: [
             {
                 title: 'camisola manga aberta',
@@ -45,7 +45,7 @@ export const CardData = [
         title: 'camisola manga aberta',
         img: card3,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$50,00',
+        preco: 'R$49,90',
         modal: [
             {
                 title: 'camisola manga aberta',
@@ -61,7 +61,7 @@ export const CardData = [
         title: 'camisola manga',
         img: card4,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$49,90',
         modal: [
             {
                 title: 'camisola manga',
@@ -77,7 +77,7 @@ export const CardData = [
         title: 'camisola manga',
         img: card5,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$49,90',
         modal: [
             {
                 title: 'camisola manga',
@@ -93,7 +93,7 @@ export const CardData = [
         title: 'camisola amamentar',
         img: card6,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$52,00',
         modal: [
             {
                 title: 'camisola amamentar',
@@ -109,7 +109,7 @@ export const CardData = [
         title: 'camisola amamentar',
         img: card7,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$52,00',
         modal: [
             {
                 title: 'camisola amamentar',
@@ -125,7 +125,7 @@ export const CardData = [
         title: 'camisola amamentar',
         img: card8,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$52,00',
         modal: [
             {
                 title: 'camisola amamentar',

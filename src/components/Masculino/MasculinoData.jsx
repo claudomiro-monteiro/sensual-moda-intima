@@ -2,7 +2,10 @@ import card1 from '../../assets/masculino/pijama/masc_regata_01.png'
 import card2 from '../../assets/masculino/pijama/masc_regata_02.png'
 import card3 from '../../assets/masculino/pijama/masc_regata_03.png'
 import card4 from '../../assets/masculino/pijama/masc_regata_04.png'
-import card5 from '../../assets/masculino/pijama/masc_regata_01.png' 
+import card5 from '../../assets/masculino/pijama/masc_camiseta_01.png' 
+import card6 from '../../assets/masculino/pijama/masc_camiseta_02.png' 
+import card7 from '../../assets/masculino/pijama/masc_camiseta_calca_01.png' 
+import card8 from '../../assets/masculino/pijama/masc_camiseta_calca_02.png' 
 
 export const MasculinoData = [
     {
@@ -71,13 +74,13 @@ export const MasculinoData = [
     },
     {
         id: 5,
-        title: 'baby doll',
+        title: 'pijama masculino camiseta',
         img: card5,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$59,90',
         modal: [
             {
-                title: 'baby doll alça',
+                title: 'pijama masculino camiseta',
                 img: card5,
                 descricao: 'pijama de malha. Poliester com Viscose.'
             }
@@ -85,42 +88,42 @@ export const MasculinoData = [
     },
     {
         id: 6,
-        title: 'baby doll',
-        img: card5,
+        title: 'pijama masculino camiseta',
+        img: card6,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$59,90',
         modal: [
             {
-                title: 'baby doll alça',
-                img: card5,
+                title: 'pijama masculino camiseta',
+                img: card6,
                 descricao: 'pijama de malha. Poliester com Viscose.'
             }
         ]
     },
     {
         id: 7,
-        title: 'baby doll',
-        img: card5,
+        title: 'pijma masculino camiseta com calça',
+        img: card7,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$62,00',
         modal: [
             {
-                title: 'baby doll alça',
-                img: card5,
+                title: 'pijma masculino camiseta com calça',
+                img: card7,
                 descricao: 'pijama de malha. Poliester com Viscose.'
             }
         ]
     },
     {
         id: 8,
-        title: 'baby doll',
-        img: card5,
+        title: 'pijma masculino camiseta com calça',
+        img: card8,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$62,00',
         modal: [
             {
-                title: 'baby doll alça',
-                img: card5,
+                title: 'pijma masculino camiseta com calça',
+                img: card8,
                 descricao: 'pijama de malha. Poliester com Viscose.'
             }
         ]

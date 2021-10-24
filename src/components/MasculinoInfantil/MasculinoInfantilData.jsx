@@ -2,7 +2,10 @@ import card1 from '../../assets/masculino/pijama_infantil/masc_regata_infantil_0
 import card2 from '../../assets/masculino/pijama_infantil/masc_regata_infantil_02.png'
 import card3 from '../../assets/masculino/pijama_infantil/masc_regata_infantil_03.png'
 import card4 from '../../assets/masculino/pijama_infantil/masc_regata_infantil_04.png'
-import card5 from '../../assets/masculino/pijama_infantil/masc_regata_infantil_01.png'
+import card5 from '../../assets/masculino/pijama_infantil/masc_inf_camiseta_01.png'
+import card6 from '../../assets/masculino/pijama_infantil/masc_inf_camiseta_02.png'
+import card7 from '../../assets/masculino/pijama_infantil/masc_inf_longo_01.png'
+import card8 from '../../assets/masculino/pijama_infantil/masc_inf_longo_02.png'
 
 export const MasculinoInfantilData = [
     {
@@ -71,15 +74,15 @@ export const MasculinoInfantilData = [
     },
     {
         id: 5,
-        title: 'pijama regata infantil',
+        title: 'pijama camiseta infantil',
         img: card5,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$33,90',
+        preco: 'R$34,90',
         modal: [
             {
-                title: 'pijama regata infantil',
+                title: 'pijama camiseta infantil',
                 img: card5,
-                descricao: 'descrição: pijama regata infantil.',
+                descricao: 'descrição: pijama camiseta infantil.',
                 composicao: 'composição: 67% poliester | 33% viscose ',
                 tamanho: 'tamanho: p m g GG'
             }
@@ -87,43 +90,49 @@ export const MasculinoInfantilData = [
     },
     {
         id: 6,
-        title: 'baby doll',
-        img: card5,
+        title: 'pijama camiseta infantil',
+        img: card6,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$34,90',
         modal: [
             {
-                title: 'baby doll alça',
+                title: 'pijama camiseta infantil',
                 img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                descricao: 'descrição: pijama camiseta infantil.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 7,
-        title: 'baby doll',
-        img: card5,
+        title: 'pijama longo infantil',
+        img: card7,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$49,90',
         modal: [
             {
-                title: 'baby doll alça',
+                title: 'pijama longo infantil',
                 img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                descricao: 'descrição: pijama longo infantil.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     },
     {
         id: 8,
-        title: 'baby doll',
-        img: card5,
+        title: 'pijama longo infantil',
+        img: card8,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$49,90',
         modal: [
             {
-                title: 'baby doll alça',
+                title: 'pijama longo infantil',
                 img: card5,
-                descricao: 'pijama de malha. Poliester com Viscose.'
+                descricao: 'descrição: pijama longo infantil.',
+                composicao: 'composição: 67% poliester | 33% viscose ',
+                tamanho: 'tamanho: p m g GG'
             }
         ]
     }
