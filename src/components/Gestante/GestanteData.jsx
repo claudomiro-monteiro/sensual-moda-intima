@@ -13,7 +13,7 @@ export const GestanteData = [
         title: 'short doll regata',
         img: card1,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$52,00',
+        preco: 'R$58,00',
         modal: [
             {
                 title: 'short doll regata',
@@ -29,7 +29,7 @@ export const GestanteData = [
         title: 'short doll regata',
         img: card2,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$52,00',
+        preco: 'R$58,00',
         modal: [
             {
                 title: 'short doll regata',
@@ -77,7 +77,7 @@ export const GestanteData = [
         title: 'camisola amamentar',
         img: card5,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$52,00',
         modal: [
             {
                 title: 'camisola amamentar',
@@ -93,7 +93,7 @@ export const GestanteData = [
         title: 'camisola amamentar',
         img: card6,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$52,00',
         modal: [
             {
                 title: 'camisola amamentar',
@@ -109,7 +109,7 @@ export const GestanteData = [
         title: 'camisola regata aberta',
         img: card7,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$30,00',
+        preco: 'R$54,90',
         modal: [
             {
                 title: 'camisola regata aberta',
@@ -125,7 +125,7 @@ export const GestanteData = [
         title: 'camisola manga aberta',
         img: card8,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$40,00',
+        preco: 'R$49,90',
         modal: [
             {
                 title: 'camisola manga aberta',

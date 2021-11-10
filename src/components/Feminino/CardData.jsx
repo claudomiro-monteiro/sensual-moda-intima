@@ -61,7 +61,7 @@ export const CardData = [
         title: 'camisola manga',
         img: card4,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$49,90',
+        preco: 'R$53,90',
         modal: [
             {
                 title: 'camisola manga',
@@ -77,7 +77,7 @@ export const CardData = [
         title: 'camisola manga',
         img: card5,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$49,90',
+        preco: 'R$53,90',
         modal: [
             {
                 title: 'camisola manga',

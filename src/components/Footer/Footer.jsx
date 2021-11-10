@@ -57,18 +57,18 @@ const footer = () => {
                 <div className="link">
                     {/* <Router> */}
                     <h3>Contato</h3>
-                    <Link to="/" className="social">
+                    <a href="tel:1231576205" className="social">
                         <FaPhone className="space" size="3rem" />
                         <div className="hide">(12) 3157-6205</div>
-                    </Link>
+                    </a>
                     <a href="https://wa.me/5512988383481" className="social">
                         <FaWhatsapp className="space" size="3rem" />
                         <div className="hide">(12) 98838-3481</div>
                     </a>
-                    <Link to="/" className="social">
+                    <a href="mailto:sensualmdintima@gmail.com?Subject=Contato do Site%20da%20mensagem" className="social">
                         <FaMailBulk className="space" size="3rem" />
                         <div className="hide">sensualmdintima@gmail.com</div>
-                    </Link>
+                    </a>
                     {/* </Router> */}
                 </div>
                 <div className="link">

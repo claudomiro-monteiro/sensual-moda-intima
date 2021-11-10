@@ -13,7 +13,7 @@ export const MasculinoInfantilData = [
         title: 'pijama regata infantil',
         img: card1,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$33,90',
+        preco: 'R$34,90',
         modal: [
             {
                 title: 'pijama regata infantil',
@@ -29,7 +29,7 @@ export const MasculinoInfantilData = [
         title: 'pijama regata infantil',
         img: card2,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$33,90',
+        preco: 'R$34,90',
         modal: [
             {
                 title: 'pijama regata infantil',
@@ -45,7 +45,7 @@ export const MasculinoInfantilData = [
         title: 'pijama regata infantil',
         img: card3,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$33,90',
+        preco: 'R$34,90',
         modal: [
             {
                 title: 'pijama regata infantil',
@@ -61,7 +61,7 @@ export const MasculinoInfantilData = [
         title: 'pijama regata infantil',
         img: card4,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$33,90',
+        preco: 'R$34,90',
         modal: [
             {
                 title: 'pijama regata infantil',
@@ -77,7 +77,7 @@ export const MasculinoInfantilData = [
         title: 'pijama camiseta infantil',
         img: card5,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$34,90',
+        preco: 'R$38,00',
         modal: [
             {
                 title: 'pijama camiseta infantil',
@@ -93,7 +93,7 @@ export const MasculinoInfantilData = [
         title: 'pijama camiseta infantil',
         img: card6,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$34,90',
+        preco: 'R$38,00',
         modal: [
             {
                 title: 'pijama camiseta infantil',
