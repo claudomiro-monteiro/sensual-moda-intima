@@ -130,11 +130,7 @@ const ContatoSignup = () => {
                                 <InputMask
                                     id="telefone"
                                     name="telefone"
-<<<<<<< HEAD
                                     type="text"
-=======
-                                    type="tel"
->>>>>>> 387fdd662ac974bc0a4b072e2137b2b8ca369c17
                                     className="form_input"
                                     placeholder=" "
                                     mask={["(99) 9999-9999", "(99) 9 9999-9999"]}

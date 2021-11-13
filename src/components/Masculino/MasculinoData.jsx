@@ -13,11 +13,7 @@ export const MasculinoData = [
         title: 'pijama regata adulto',
         img: card1,
         tamanho: 'Tam. p m g gG',
-<<<<<<< HEAD
         preco: 'R$52,90',
-=======
-        preco: 'R$49,90',
->>>>>>> 387fdd662ac974bc0a4b072e2137b2b8ca369c17
         modal: [
             {
                 title: 'pijama regata adulto',
@@ -33,11 +29,7 @@ export const MasculinoData = [
         title: 'pijama regata adulto',
         img: card2,
         tamanho: 'Tam. p m g gG',
-<<<<<<< HEAD
         preco: 'R$52,90',
-=======
-        preco: 'R$49,90',
->>>>>>> 387fdd662ac974bc0a4b072e2137b2b8ca369c17
         modal: [
             {
                 title: 'pijama regata adulto',
@@ -53,11 +45,7 @@ export const MasculinoData = [
         title: 'pijama regata adulto',
         img: card3,
         tamanho: 'Tam. p m g GG',
-<<<<<<< HEAD
         preco: 'R$52,90',
-=======
-        preco: 'R$49,90',
->>>>>>> 387fdd662ac974bc0a4b072e2137b2b8ca369c17
         modal: [
             {
                 title: 'pijama regata adulto',
@@ -73,11 +61,7 @@ export const MasculinoData = [
         title: 'pijama regata adulto',
         img: card4,
         tamanho: 'Tam. p m g gG',
-<<<<<<< HEAD
         preco: 'R$52,90',
-=======
-        preco: 'R$49,90',
->>>>>>> 387fdd662ac974bc0a4b072e2137b2b8ca369c17
         modal: [
             {
                 title: 'pijama regata adulto',
