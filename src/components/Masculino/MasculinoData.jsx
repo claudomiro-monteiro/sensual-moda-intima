@@ -52,7 +52,7 @@ export const MasculinoData = [
         id: 3,
         title: 'pijama regata adulto',
         img: card3,
-        tamanho: 'Tam. p m g gG',
+        tamanho: 'Tam. p m g GG',
 <<<<<<< HEAD
         preco: 'R$52,90',
 =======
