@@ -108,7 +108,7 @@ export const GestanteData = [
         id: 7,
         title: 'camisola regata aberta',
         img: card7,
-        tamanho: 'Tam. p m g gG',
+        tamanho: 'Tam. p m g GG',
         preco: 'R$54,90',
         modal: [
             {
