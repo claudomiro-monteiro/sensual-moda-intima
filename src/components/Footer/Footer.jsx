@@ -57,18 +57,32 @@ const footer = () => {
                 <div className="link">
                     {/* <Router> */}
                     <h3>Contato</h3>
+<<<<<<< HEAD
                     <Link to="/" className="social">
                         <FaPhone className="space" size="3rem" />
                         <div className="hide">(12) 3157-6205</div>
                     </Link>
+=======
+                    <a href="tel:1231576205" className="social">
+                        <FaPhone className="space" size="3rem" />
+                        <div className="hide">(12) 3157-6205</div>
+                    </a>
+>>>>>>> 387fdd662ac974bc0a4b072e2137b2b8ca369c17
                     <a href="https://wa.me/5512988383481" className="social">
                         <FaWhatsapp className="space" size="3rem" />
                         <div className="hide">(12) 98838-3481</div>
                     </a>
+<<<<<<< HEAD
                     <Link to="/" className="social">
                         <FaMailBulk className="space" size="3rem" />
                         <div className="hide">sensualmdintima@gmail.com</div>
                     </Link>
+=======
+                    <a href="mailto:sensualmdintima@gmail.com?Subject=Contato do Site%20da%20mensagem" className="social">
+                        <FaMailBulk className="space" size="3rem" />
+                        <div className="hide">sensualmdintima@gmail.com</div>
+                    </a>
+>>>>>>> 387fdd662ac974bc0a4b072e2137b2b8ca369c17
                     {/* </Router> */}
                 </div>
                 <div className="link">
