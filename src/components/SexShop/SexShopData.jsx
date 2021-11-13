@@ -138,7 +138,7 @@ export const SexShopData = [
         title: 'sexy ball funcional',
         img: card8,
         tamanho: 'contém. 3 unidades',
-        preco: 'R$30,00',
+        preco: 'R$9,00',
         modal: [
             {
                 title: 'sexy ball funcional.',
