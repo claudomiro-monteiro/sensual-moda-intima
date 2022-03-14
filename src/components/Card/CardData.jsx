@@ -100,7 +100,7 @@ export const CardData = [
         title: 'baby doll alça silk',
         img: card5,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$34,00',
+        preco: 'R$37,00',
         modal: [
             {
                 title: 'baby doll alça silk',
@@ -116,7 +116,7 @@ export const CardData = [
         title: 'baby doll alça silk',
         img: card6,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$34,00',
+        preco: 'R$37,00',
         modal: [
             {
                 title: 'baby doll alça silk',
@@ -132,7 +132,7 @@ export const CardData = [
         title: 'baby doll alça silk',
         img: card7,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$34,00',
+        preco: 'R$37,00',
         modal: [
             {
                 title: 'baby doll alça silk',
@@ -148,7 +148,7 @@ export const CardData = [
         title: 'baby doll alça silk',
         img: card8,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$34,00',
+        preco: 'R$37,00',
         modal: [
             {
                 title: 'baby doll alça silk',
@@ -388,7 +388,7 @@ export const CardData = [
         title: 'short doll com botão na alça',
         img: card23,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$52,00',
+        preco: 'R$58,00',
         modal: [
             {
                 title: 'short doll com botão na alça',
@@ -404,7 +404,7 @@ export const CardData = [
         title: 'short doll com botão na alça',
         img: card24,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$52,00',
+        preco: 'R$58,00',
         modal: [
             {
                 title: 'short doll com botão na alça',
@@ -484,7 +484,7 @@ export const CardData = [
         title: 'pesacador com manga japonesa',
         img: card29,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$56,00',
+        preco: 'R$58,00',
         modal: [
             {
                 title: 'pesacador com manga japonesa',
@@ -500,7 +500,7 @@ export const CardData = [
         title: 'pesacador com manga japonesa',
         img: card30,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$56,00',
+        preco: 'R$58,00',
         modal: [
             {
                 title: 'pesacador com manga japonesa',
@@ -516,7 +516,7 @@ export const CardData = [
         title: 'pesacador com manga japonesa',
         img: card31,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$56,00',
+        preco: 'R$58,00',
         modal: [
             {
                 title: 'pesacador com manga japonesa',
@@ -532,7 +532,7 @@ export const CardData = [
         title: 'pesacador com manga japonesa',
         img: card32,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$56,00',
+        preco: 'R$58,00',
         modal: [
             {
                 title: 'pesacador com manga japonesa',

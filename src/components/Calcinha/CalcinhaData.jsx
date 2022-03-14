@@ -97,7 +97,7 @@ export const CalcinhaData = [
         title: 'calcinha de microfibra',
         img: card7,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$7,90',
+        preco: 'R$8,90',
         modal: [
             {
                 title: 'calcinha de microfibra',

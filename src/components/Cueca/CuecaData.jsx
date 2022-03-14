@@ -79,7 +79,7 @@ export const CuecaData = [
         title: 'cueca slip de algodão',
         img: card5,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$18,00',
+        preco: 'R$23,00',
         modal: [
             {
                 title: 'kit com 3 peças',
@@ -95,7 +95,7 @@ export const CuecaData = [
         title: 'cueca slip de algodão',
         img: card6,
         tamanho: 'Tam. p m g',
-        preco: 'R$36,00',
+        preco: 'R$46,00',
         modal: [
             {
                 title: 'kit com 6 peças',

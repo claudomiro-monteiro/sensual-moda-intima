@@ -29,7 +29,7 @@ export const SoutienData = [
         title: 'soutien bojo e renda',
         img: card2,
         tamanho: 'Tam. p m g gG',
-        preco: 'R$27,90',
+        preco: 'R$29,90',
         modal: [
             {
                 title: 'soutien bojo e renda',
